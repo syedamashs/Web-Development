@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <body>
+     <form action="index.php" method="post" enctype="multipart/form-data">
+             
+        
+        <label for="username">username</label>
+        <input type="text" id="username" placeholder="Enter username" minlength="6" maxlength="10" required><br>
+        
+        <label for="password">password</label>
+        <input type="password" id="password" placeholder="Enter password" required><br>
+        
+        <label for="email">email</label>
+        <input type="email" id="email" placeholder="spongebob@gmail.com" required><br>
+        
+        <label for="phone">phone #</label>
+        <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+        
+        <label for="bday">Birthday</label>
+        <input type="date" id="bday" required><br>
+
+        <label for="quantity">quantity</label>
+        <input type="number" id="quantity" min="0" max="99" value="2"><br>
+
+        <label for="title">title</label>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <label for="Mrs.">Mrs.</label>
+        <input type="radio" id="Mrs." value="Mrs." name="title">
+        <label for="Phd.">Phd.</label>
+        <input type="radio" id="Phd." value="Phd." name="title"><br>
+
+        <label for="payment">payment</label>
+        <select id="payment">
+            <option value="google pay">Google pay</option>
+            <option value="card">Card</option>
+            <option value="Visa">Visa</option>
+        </select>      <br>
+
+        <label for="subscribe">subscribe</label>
+        <input type="checkbox" id="subscribe"><br>
+        
+        <label for="comment">comment:</label>
+        <textarea id="comment" rows="3" cols="25"></textarea><br>
+
+        <label for="file">file</label>
+        <input type="file" id="file" accept="image/jpeg ,image/png"><br>
+
+
+
+        <br>
+        <input type="reset"><br><br>
+        <input type="submit">
+     </form>
+    </body>
+</html>
