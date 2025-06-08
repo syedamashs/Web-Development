@@ -1,5 +1,5 @@
 let x = 0;
-document.getElementById("myh1").textContent = ;
+document.getElementById("myh1").textContent = x;
 
 
 document.getElementById("inc").onclick = function (){
