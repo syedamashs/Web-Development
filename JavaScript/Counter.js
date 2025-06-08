@@ -1,4 +1,4 @@
-let x = 0;
+let x ;
 document.getElementById("myh1").textContent = x;
 
 
