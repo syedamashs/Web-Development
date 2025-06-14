@@ -15,3 +15,6 @@ Math.min(x,y,....);
 //Random Number 
 
 Math.floor(Math.random() * 6) + 1 //For getting random between 1 and 6
+
+//For getting Numbers Between Min(eg: 50) and Max(eg:100) 
+Math.floor(Math.random() * (Max-Min)) + Min
