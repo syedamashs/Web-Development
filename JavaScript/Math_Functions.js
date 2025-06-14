@@ -10,3 +10,8 @@ Math.abs(x);
 Math.sign(x);
 Math.max(x,y,....);
 Math.min(x,y,....);
+
+
+//Random Number 
+
+Math.floor(Math.random() * 6) + 1 //For getting random between 1 and 6
