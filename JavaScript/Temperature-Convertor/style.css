@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin: auto;
+}
+
+h2{
+    color: rgb(177, 49, 49);
+}
+
+#btn{
+    padding: 10px 20px;
+    background-color: hsl(0, 54%, 54%);
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+#btn:hover{
+    background-color: hsl(0, 54%, 44%);
+
+}
+
+.div1{
+    margin: auto;
+    padding: 60px 20px;
+    background-color: rgb(155, 155, 155);
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgb(46, 46, 46);
+}
+
+#inp1{
+    padding: 7px 15px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+#inp1::placeholder{
+    text-align: center;
+}
