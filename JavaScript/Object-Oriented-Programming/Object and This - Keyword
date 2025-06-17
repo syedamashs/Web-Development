@@ -1,0 +1,7 @@
+const person = {
+    name: "Amash",
+    age: 20,
+    sayHello: function(){ console.log(`Hi this is ${this.name}`) },
+}
+
+person.sayHello();
