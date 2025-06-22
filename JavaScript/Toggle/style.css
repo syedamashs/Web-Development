@@ -1,0 +1,37 @@
+body{
+    background-color: white;
+    margin:0;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+button{
+    margin: 10px;
+    padding: 10px;
+    border:0;
+    border-radius: 5px;
+    color:white;
+}
+
+#toggleb{
+    background-color: rgb(218, 1, 1);
+    transition: 0.5s;
+}
+
+#togglew{
+    background-color: rgb(4, 168, 4);
+    transition: 0.5s;
+}
+
+#toggleb:hover{
+    background-color: rgb(155, 1, 1);
+}
+
+#togglew:hover{
+    background-color: rgb(0, 119, 0);
+}
