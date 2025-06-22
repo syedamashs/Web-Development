@@ -1,0 +1,18 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: large;
+}
+
+#mybutton{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(133, 89, 89);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input{
+    padding: 10px 20px;
+}

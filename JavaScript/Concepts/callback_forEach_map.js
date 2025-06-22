@@ -13,7 +13,7 @@ function goodbye(){
 
 //forEach
 
-let array = [1,2,3]
+let arr = [1,2,3]
 
 array.forEach(display);;
 
@@ -30,7 +30,7 @@ function double(element , index, array){
 }
 
 
-MAP Function:
+//MAP Function:
 //Applies the callback for function and Stores in a new Array
 
 let array = [1,2,3];
