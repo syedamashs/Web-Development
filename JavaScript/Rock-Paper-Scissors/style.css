@@ -1,0 +1,74 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container{
+    text-align: center;
+}
+
+.buttons{
+    font-size: 3em;
+    padding: 30px;
+    margin:20px;
+    border:0;
+    border-radius: 5px;
+    background-color: rgb(75, 75, 153);
+    transition: 0.5s;
+    cursor: pointer;
+    color:white;
+}
+
+.buttonsnew{
+    font-size: 1em;
+    padding: 15px;
+    margin:10px;
+    border:0;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(218, 30, 30);
+     transition: 0.5s;
+     color:white;
+}
+
+#fornew{
+    text-align: center;
+}
+
+.hover{
+    background-color: rgb(41, 41, 131);
+}
+
+.hovern{
+    background-color: rgb(161, 17, 17);
+}
+
+#p{
+    font-size: larger;
+}
+
+#compchoice{
+    font-size: 2em;
+}
+
+#p2{
+    font-size: larger;
+}
+
+.toggle{
+    font-size: 1em;
+    padding: 15px;
+    margin:10px;
+    border:0;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    background-color: green;
+    transition: 0.5s;
+    color:white;
+}
+
+.toggle:hover{
+    background-color: rgb(1, 82, 1);
+}
+
