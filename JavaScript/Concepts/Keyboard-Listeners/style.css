@@ -1,0 +1,14 @@
+body{
+    margin:0;
+}
+
+#mydiv{
+    height:200px;
+    font-size: 8em;
+    background-color: lightblue;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
