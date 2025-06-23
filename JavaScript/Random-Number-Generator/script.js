@@ -19,3 +19,10 @@ button.onclick = function() {
     let rand = Math.floor(Math.random() * (inp2 - inp1 +1)) + inp1;
     para.textContent = rand;
 }
+
+
+document.addEventListener("keypress" , event=>{
+    if(event.key === "Enter"){
+        mybutton.click();
+    }
+})

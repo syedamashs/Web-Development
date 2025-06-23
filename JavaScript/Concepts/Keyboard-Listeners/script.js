@@ -37,3 +37,12 @@ document.addEventListener("keydown", event=>{
         mydiv.style.left = `${x}px`;
     }
 });
+
+
+//For Button Key Press 
+
+//document.addEventListener("keypress" , event=>{
+//   if(event.key === "Enter"){
+//       mybutton.click();
+//    }
+//})
